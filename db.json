@@ -1,0 +1,46 @@
+{
+  "todos": [
+    {
+      "title": "Buy a Milk",
+      "text": "Buy a milk after school",
+      "id": 1693216294378,
+      "priority": 3,
+      "isCompleted": true
+    },
+    {
+      "title": "Tekken 8",
+      "text": "Buy a Tekken 8 after the realise",
+      "id": 1693216341670,
+      "priority": 2,
+      "isCompleted": false
+    },
+    {
+      "title": "STALKER 2 ",
+      "text": "Buy a STALKER 2 after I update my PC",
+      "id": 1693216372865,
+      "priority": 1,
+      "isCompleted": false
+    },
+    {
+      "title": "Update PC",
+      "text": "Update my PC as soon as possible",
+      "id": 1693232303053,
+      "priority": 2,
+      "isCompleted": false
+    },
+    {
+      "title": "A separate life",
+      "text": "Living apart from your parents",
+      "id": 1693232423461,
+      "priority": 1,
+      "isCompleted": false
+    },
+    {
+      "title": "Job",
+      "text": "Find a job as soon as possible",
+      "id": 1693232439650,
+      "priority": 3,
+      "isCompleted": false
+    }
+  ]
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Todos from "./features/Todos";
+import './styles/index.css'
+import './styles/reset.css'
+import HeaderBottom from "./components/HeaderBottom/HeaderBottom";
+import HeaderTop from "./components/HeaderTop/HeaderTop";
+import {Typography} from "@mui/material";
+import {useTranslation} from "react-i18next";
+import LangSwitcher from "./components/LangSwitcher/LangSwitcher";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+    const { t } = useTranslation()
+
+    return (
+            <div>
+                <div>
+                    <HeaderTop>
+                    </HeaderTop>
+                    <HeaderBottom>
+                    </HeaderBottom>
+                </div>
+                <Todos/>
+            </div>
+    );
 }
-
 export default App;
